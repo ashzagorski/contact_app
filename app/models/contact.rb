@@ -16,4 +16,6 @@ class Contact < ApplicationRecord
     "+81 #{phone_number}"
   end 
 
+
+  belongs_to :user
 end
